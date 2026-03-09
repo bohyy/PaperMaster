@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="https://v3b.fal.media/files/b/0a917033/O3Y0QXeK4jn-IzKwnqK7k.jpg" width="600" alt="PaperMaster">
+  <img src="https://v3b.fal.media/files/b/0a91712d/OJc5hABDPSGITu686S_bI.jpg" width="600" alt="PaperMaster">
   <h1>PaperMaster</h1>
   <p>你的专属学术写作全能助手 | 从选题到投稿一站式搞定</p>
   <p>✨ 科研效率直接提升300% ✨</p>
@@ -22,9 +22,31 @@ sudo curl -L https://raw.githubusercontent.com/bohyy/PaperMaster/main/cli/paperm
 下载 [papermaster.exe](https://raw.githubusercontent.com/bohyy/PaperMaster/main/cli/papermaster.py) 放到 `C:\Windows\System32` 目录即可
 ---
 
+## 🧑‍💻 零代码使用指南（不会写代码也能直接用）
+<div align="center">
+  <img src="https://v3b.fal.media/files/b/0a91712f/MGLbd4O4m3I1pQ9zhLa7Z.jpg" width="600" alt="Workflow">
+</div>
+如果你不会用命令行也完全没关系！安装完PaperMaster技能到你的AI助手之后，**直接用自然语言说需求就行**，不用记任何命令：
+> ✅ 你说：「帮我润色这段硕士毕业论文，去掉AI痕迹」
+> 自动调用去AI化润色功能，返回符合硕士毕业论文规范的润色后内容
+> 
+> ✅ 你说：「帮我找一下多模态大模型方向的CCF A类会议文献」
+> 自动调用文献检索功能，返回整理好的文献列表+下载链接
+> 
+> ✅ 你说：「帮我生成一个符合IEEE规范的折线图Python代码」
+> 直接返回可用的绘图代码，改数据就能用
+> 
+> ✅ 你说：「帮我写个回复审稿人的框架，意见是说我创新点不足」
+> 直接生成完整的审稿人回复模板，填内容就能用
+> 
+> ✅ 你说：「帮我推荐一下机器学习方向录用率高的CCF B类会议」
+> 自动返回符合要求的会议列表+录用率+审稿周期信息
+完全不用懂技术，和平时聊天一样用就行~
+---
+
 ## 🌟 核心功能（全场景覆盖科研全流程）
 <div align="center">
-  <img src="https://v3b.fal.media/files/b/0a917034/h0UUtH_QWI2zNycJsG7KT.jpg" width="700" alt="Features">
+  <img src="https://v3b.fal.media/files/b/0a91712e/D_Q8vNg16M-uIuUx1-JI6.jpg" width="700" alt="Features">
 </div>
 
 ---
@@ -138,7 +160,7 @@ papermaster journal timeline --deadline "2024-06-30"
 
 ## 📊 效率对比
 <div align="center">
-  <img src="https://v3b.fal.media/files/b/0a917035/KYuU7ZzHJIbgfQpFXGA6S.jpg" width="600" alt="Efficiency">
+  <img src="https://v3b.fal.media/files/b/0a91712e/fmhQgKY3fPosdJR3wJki-.jpg" width="600" alt="Efficiency">
 </div>
 
 | 任务 | 传统耗时 | PaperMaster耗时 | 节省时间 |
