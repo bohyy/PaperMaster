@@ -227,14 +227,51 @@
 
 ---
 
-## 🔧 安装步骤（给会点电脑的人看的，小白不用管）
-### Mac/Linux
+## 🔧 一键安装（3种使用方式，选你常用的就行）
+### 📌 方式1：OpenClaw 技能一键安装（推荐，小白首选）
+直接在OpenClaw里运行这行命令，自动安装完成，直接就能用自然语言调用：
+```bash
+openclaw skill install bohyy/PaperMaster
+```
+
+### 📌 方式2：Claude Code / OpenCode 插件安装
+在Claude Code或者OpenCode插件里运行这行命令，自动安装：
+```bash
+pip install papermaster
+```
+
+### 📌 方式3：独立CLI命令行安装
+#### Mac/Linux
 打开终端，复制粘贴下面的命令回车就行：
 ```bash
 sudo curl -L https://raw.githubusercontent.com/bohyy/PaperMaster/main/cli/papermaster.py -o /usr/local/bin/papermaster && sudo chmod +x /usr/local/bin/papermaster
 ```
-### Windows
+#### Windows
 下载 [papermaster.exe](https://raw.githubusercontent.com/bohyy/PaperMaster/main/cli/papermaster.py) 放到 `C:\Windows\System32` 目录就行。
+
+---
+
+## 📟 完整CLI命令清单（喜欢用命令行的可以看）
+| 命令 | 功能说明 | 使用示例 |
+|------|----------|----------|
+| `papermaster refine` | 内容去AI化润色 | `papermaster refine --style "硕士毕业论文" --level medium 我的论文.md` |
+| `papermaster search` | 文献检索 | `papermaster search "大模型 推理加速" --filter CCF-A` |
+| `papermaster translate` | 专业翻译 | `papermaster translate --to zh 英文文献.md` |
+| `papermaster summarize` | 文献速读总结 | `papermaster summarize 文献.pdf` |
+| `papermaster cite` | 引用格式转换 | `papermaster cite convert "引用内容" --format GB7714` |
+| `papermaster cite insert` | 自动插入引用并生成参考文献 | `papermaster cite insert 我的论文.md --format GB7714` |
+| `papermaster reference` | 自动生成参考文献列表 | `papermaster reference generate --format APA` |
+| `papermaster zotero import` | 导入Zotero文献库 | `papermaster zotero import ~/Zotero/backup.json` |
+| `papermaster zotero export` | 导出到Zotero文献库 | `papermaster zotero export 我的引用.json` |
+| `papermaster download` | 下载论文PDF | `papermaster download --doi 10.1109/CVPR.2024.12345` |
+| `papermaster figure` | 生成学术绘图代码 | `papermaster figure use line --language python --theme ieee` |
+| `papermaster prompt` | 使用写作模板 | `papermaster prompt use abstract --topic "多模态大模型"` |
+| `papermaster experiment design` | 生成实验设计方案 | `papermaster experiment design --topic "特征融合 消融实验"` |
+| `papermaster experiment analysis` | 实验结果显著性分析 | `papermaster experiment analysis --data "[[82.3,85.1],[79.2,81.5]]"` |
+| `papermaster journal recommend` | 智能选刊推荐 | `papermaster journal recommend --field "机器学习" --level CCF-B` |
+| `papermaster journal timeline` | 生成投稿时间线 | `papermaster journal timeline --deadline "2024-06-30"` |
+| `papermaster check` | 投稿格式检查 | `papermaster check 我的论文.md --journal IEEE` |
+| `papermaster template` | 使用报告/基金模板 | `papermaster template use 青年基金 --field "计算机"` |
 
 ---
 
