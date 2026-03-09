@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="https://v3b.fal.media/files/b/0a91712d/OJc5hABDPSGITu686S_bI.jpg" width="600" alt="PaperMaster">
+  <img src="https://v3b.fal.media/files/b/0a917345/w7i_jV4iGW_dvIJRjWSS3.jpg" width="600" alt="PaperMaster">
   <h1>PaperMaster</h1>
   <p>你的专属学术写作全能助手 | 从选题到投稿一站式搞定</p>
   <p>✨ 科研效率直接提升300% ✨</p>
@@ -24,7 +24,7 @@ sudo curl -L https://raw.githubusercontent.com/bohyy/PaperMaster/main/cli/paperm
 
 ## 🧑‍💻 零代码使用指南（不会写代码也能直接用）
 <div align="center">
-  <img src="https://v3b.fal.media/files/b/0a91712f/MGLbd4O4m3I1pQ9zhLa7Z.jpg" width="600" alt="Workflow">
+  <img src="https://v3b.fal.media/files/b/0a917347/AsBtSuGBUSybJJKP_axRm.jpg" width="600" alt="Workflow">
 </div>
 如果你不会用命令行也完全没关系！安装完PaperMaster技能到你的AI助手之后，**直接用自然语言说需求就行**，不用记任何命令：
 > ✅ 你说：「帮我润色这段硕士毕业论文，去掉AI痕迹」
@@ -46,7 +46,7 @@ sudo curl -L https://raw.githubusercontent.com/bohyy/PaperMaster/main/cli/paperm
 
 ## 🌟 核心功能（全场景覆盖科研全流程）
 <div align="center">
-  <img src="https://v3b.fal.media/files/b/0a91712e/D_Q8vNg16M-uIuUx1-JI6.jpg" width="700" alt="Features">
+  <img src="https://v3b.fal.media/files/b/0a917346/jU0U5e2R8EqGh2djy-XaY.jpg" width="700" alt="Features">
 </div>
 
 ---
@@ -160,7 +160,7 @@ papermaster journal timeline --deadline "2024-06-30"
 
 ## 📊 效率对比
 <div align="center">
-  <img src="https://v3b.fal.media/files/b/0a91712e/fmhQgKY3fPosdJR3wJki-.jpg" width="600" alt="Efficiency">
+  <img src="https://v3b.fal.media/files/b/0a917346/JE9gRvGyLpWNZc7a--ICo.jpg" width="600" alt="Efficiency">
 </div>
 
 | 任务 | 传统耗时 | PaperMaster耗时 | 节省时间 |
