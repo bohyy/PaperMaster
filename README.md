@@ -38,18 +38,24 @@ papermaster -h
 ---
 ### ✍️ 功能1：去AI化润色（最常用！）
 #### 解决的问题：AI写的内容太模板化、查重过不了、导师一眼就能看出来是AI写的
-#### 支持的期刊风格（直接选就行）：
-`Nature` `Science` `IEEE` `Springer` `CCF-A类会议` `国内毕业论文`
+#### ✨ 新增中文专属润色能力（集成Humanizer-zh）：
+专门适配中文学术写作场景，支持三种中文风格：
+`本科毕业论文` `硕士毕业论文` `中文核心期刊`
+自动修正AI生成的生硬套话、翻译腔，符合中文学术写作规范，完全看不出AI痕迹
+#### 支持的外文期刊风格（直接选就行）：
+`Nature` `Science` `IEEE` `Springer` `CCF-A类会议`
 #### 支持的润色力度：
 - `light` 轻量：只改语法错误、专业术语错误，不改变原意
 - `medium` 中量：调整句式逻辑、去掉AI套话、让内容更像真人写的（最常用）
 - `heavy` 深度：完全改写，保持原意不变，100%看不出AI痕迹
 #### 使用示例：
 ```bash
-# 把论文润成Nature风格，中度润色
-papermaster refine --journal Nature --level medium 我的论文.md
+# 润色中文硕士毕业论文
+papermaster refine --style 硕士毕业论文 --level medium 我的论文.md
+# 把英文论文润成Nature风格，中度润色
+papermaster refine --journal Nature --level medium my_paper.md
 # 润色后直接保存到新文件
-papermaster refine --journal IEEE --level medium 我的论文.md > 润色后论文.md
+papermaster refine --style 中文核心期刊 --level medium 我的论文.md > 润色后论文.md
 # 只润色一段文本
 papermaster refine --text "这里粘贴你要润色的文本" --level medium
 ```
@@ -57,6 +63,7 @@ papermaster refine --text "这里粘贴你要润色的文本" --level medium
 | AI原始内容 | PaperMaster润色后内容 |
 |------------|------------------------|
 | "在本文中，我们提出了一种新颖的方法，该方法在多个数据集上取得了优于现有方法的性能。" | "本文提出一种改进的多模态特征融合方法，在3个公开基准数据集上的实验结果表明，该方法相比当前SOTA模型的准确率提升了2.3%，推理速度提升了15%。" |
+| "综上所述，本研究的结果表明所提方法具有良好的性能和应用前景。" | "综上，本文提出的方法在多项公开数据集上取得了优于现有工作的效果，在医学影像辅助诊断场景中具备较好的落地应用价值。" |
 ---
 ### 🔍 功能2：文献检索+处理（不用再跑好几个网站查文献）
 #### 解决的问题：查文献要跑知网、Google Scholar、Semantic Scholar好几个网站，找引用格式要手动调半天
